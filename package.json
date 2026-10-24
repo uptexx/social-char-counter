@@ -1,0 +1,48 @@
+{
+  "name": "@uptexx/social-char-counter",
+  "version": "1.0.0",
+  "description": "Accurate platform-aware character, URL (t.co 23-char weighting), grapheme/emoji, mention, and hashtag counter for 10 social networks.",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "module": "./src/index.mjs",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.mjs",
+      "default": "./src/index.mjs"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/index.test.mjs"
+  },
+  "keywords": [
+    "character-counter",
+    "social-media",
+    "twitter-text",
+    "tco",
+    "grapheme",
+    "emoji",
+    "bluesky",
+    "mastodon",
+    "instagram",
+    "linkedin",
+    "nexopost",
+    "uptexx"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uptexx/social-char-counter.git"
+  },
+  "homepage": "https://nexopost.com",
+  "author": "Uptexx (https://uptexx.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
